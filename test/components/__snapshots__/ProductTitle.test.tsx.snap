@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el ProductTitle debe mostar el componente con el title del context 1`] = `
+<div
+  className="mt-8 w-96 mx-2 md:p-4 p-2 bg-white rounded-3xl undefined"
+>
+  <div
+    className="lg:w-5/12  flex flex-col justify-center mt-2 pb-8 lg:pb-0"
+  >
+    <h1
+      className="text-gray-800 text-lg lg:text-2xl font-semibold undefined"
+    >
+      Coffee Without Image
+    </h1>
+    <p
+      className="text-base leading-normal text-gray-600  mt-2 undefined"
+    >
+      Coffee is darkly colored, bitter, slightly acidic and has a stimulating effect in humans
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Pruebas en el ProductTitle debe mostrar el titulo personalizado 1`] = `
+<div
+  className="lg:w-5/12  flex flex-col justify-center mt-2 pb-8 lg:pb-0"
+>
+  <h1
+    className="text-gray-800 text-lg lg:text-2xl font-semibold undefined"
+  >
+    Custom Product
+  </h1>
+  <p
+    className="text-base leading-normal text-gray-600  mt-2 undefined"
+  >
+    Product description
+  </p>
+</div>
+`;

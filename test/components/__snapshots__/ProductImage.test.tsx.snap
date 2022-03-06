@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en ProductImage Debe mostar el ProductImage correctamente 1`] = `
+<div
+  className="lg:relative w-7/12 px-4 py-4 flex"
+>
+  <img
+    alt="Product"
+    className="w-full rounded-3xl undefined"
+    src="https://MyImage.jpg"
+  />
+</div>
+`;
+
+exports[`Pruebas en ProductImage debe mostar el componente con el image del context 1`] = `
+<div
+  className="mt-8 w-96 mx-2 md:p-4 p-2 bg-white rounded-3xl undefined"
+>
+  <div
+    className="lg:relative w-7/12 px-4 py-4 flex"
+  >
+    <img
+      alt="Product"
+      className="w-full rounded-3xl undefined"
+      src="./coffee-mug.png"
+    />
+  </div>
+</div>
+`;
