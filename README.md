@@ -5,7 +5,7 @@ consta de un card de productos con titulo, descripcion, imagen y contador de pro
 
 ### Jeisson Gonzalez
 
-##Ejemplo 
+###Ejemplo 
 
 ```
 import {ProductCard, ProductImage, ProductTitle, ProductButtons} from 'jg-product-card'

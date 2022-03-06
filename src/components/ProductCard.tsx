@@ -6,7 +6,6 @@ import { onChangeArgsInterface, ProductContextInterface, ProductInterface, Initi
 
 export interface PropsInterface {
     product: ProductInterface,
-    //children?: ReactElement | ReactElement[] ,
     children: (args: ProductCardHandlersInterface) => JSX.Element,
     className?: string,
     style?: React.CSSProperties,
